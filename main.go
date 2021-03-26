@@ -45,7 +45,7 @@ func main() {
 
 func createApplicantAccount() {
 	applicant := Applicant{
-		Email:     "rony@starkindustries.com",
+		Email:     "tony@starkindustries.com",
 		FirstName: "Tony",
 		LastName:  "Stark",
 	}
