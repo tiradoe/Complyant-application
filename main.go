@@ -45,9 +45,9 @@ func main() {
 
 func createApplicantAccount() {
 	applicant := Applicant{
-		Email:     "ed@etdevelopment.net",
-		FirstName: "Edward",
-		LastName:  "Tirado",
+		Email:     "rony@starkindustries.com",
+		FirstName: "Tony",
+		LastName:  "Stark",
 	}
 
 	applicant_json, err := json.Marshal(applicant)
