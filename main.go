@@ -45,9 +45,9 @@ func main() {
 
 func createApplicantAccount() {
 	applicant := Applicant{
-		Email:     "test@wtf.co.uk",
-		FirstName: "Bilbo",
-		LastName:  "Baggins",
+		Email:     "ed@etdevelopment.net",
+		FirstName: "Edward",
+		LastName:  "Tirado",
 	}
 
 	applicant_json, err := json.Marshal(applicant)
@@ -91,7 +91,7 @@ func sendRequest(json_data []byte, url string) {
 }
 
 func errorCheck(err error) {
-	if err == nil {
+	if err != nil {
 		log.Println("Oh, get a job?  Just get a job? Why don’t I strap on my job helmet and squeeze down into a job cannon and fire off into Jobland, where jobs grow on jobbies!")
 		log.Fatal(err)
 	}
